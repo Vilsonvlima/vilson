@@ -1,6 +1,30 @@
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:Vilsonvlima/vilson.git
-git push -u origin main
+#######SUBIR ARQUIVO#######
+#git init (- Inicializa um novo repositório Git na pasta atual.)
+
+#git add README.md (- Adiciona o arquivo README.md ao controle de versão (prepara ele para ser incluído no próximo commit).)
+
+#git commit -m "first commit"
+#git branch -M main
+#git remote add origin git@github.com:Vilsonvlima/vilson.git
+#git push -u origin main
+
+
+
+###Criar um novo repositório e publicar no GitHub**
+
+git init                            # Inicializa um novo repositório Git local
+git add README.md                   # Adiciona o README.md ao controle de versão
+git commit -m "first commit"        # Salva o primeiro commit com mensagem
+git branch -M main                  # Renomeia o branch atual para 'main'
+git remote add origin git@github.com:Vilsonvlima/vilson.git   # Associa o repositório local ao remoto no GitHub
+git push -u origin main             # Envia o branch main e faz o primeiro 'push' para o GitHub
+
+
+---
+
+###Adicionar um novo arquivo ao repositório**
+
+bash
+git add meuarquivo.txt              # Adiciona o novo arquivo ao controle de versão
+git commit -m "Adiciona meuarquivo.txt"   # Salva o commit com o novo arquivo
+git push origin main                # Envia as alterações para o repositório remoto no GitHub
